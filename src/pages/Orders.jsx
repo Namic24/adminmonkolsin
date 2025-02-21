@@ -62,7 +62,7 @@ const Orders = ({ token }) => {
                   <div>
                     {order.items.map((item, index) => (
                       <p className='py-0.5' key={index}>
-                        {item.name} x {item.quantity} <span> {item.size} </span>
+                        {item.name} x {item.quantity}
                       </p>
                     ))}
                   </div>

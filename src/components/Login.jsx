@@ -31,11 +31,11 @@ const Login = ({setToken}) => {
                     <form onSubmit={onSubmitHandler}>
                         <div className='mb-3 min-w-72'>
                             <p className='text-sm font-medium text-gray-700 mb-2'>กรอกอีเมล</p>
-                            <input onChange={(e) => setEmail(e.target.value)} value={email} className='rounded-md w-full px-3 py-2 border border-white-300 outline-none' type="email" placeholder='ใส่อีเมลค่าา' required />
+                            <input onChange={(e) => setEmail(e.target.value)} value={email} className='rounded-md w-full px-3 py-2 border border-white-300 outline-none' type="email" placeholder='ใส่อีเมล' required />
                         </div>
                         <div className='mb-3 min-w-72'>
                             <p className='text-sm font-medium text-gray-700 mb-2'>รหัสผ่าน</p>
-                            <input onChange={(e) => setPassword(e.target.value)} value={password} className='rounded-md w-full px-3 py-2 border border-gray-300 outline-none' type="password" placeholder='ตรงนี้ใส่รหัสไงคะะ' required />
+                            <input onChange={(e) => setPassword(e.target.value)} value={password} className='rounded-md w-full px-3 py-2 border border-gray-300 outline-none' type="password" placeholder='password' required />
                         </div>
                         <button className='mt-2 w-full py-2 px-4 rounded-md text-white bg-black' type='submit'> Login </button>
                     </form>
